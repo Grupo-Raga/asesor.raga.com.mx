@@ -1,0 +1,64 @@
+h1{
+    color: #0e0e0e;
+    text-align: center;
+}
+
+#car-image{
+    text-align: center;
+}
+
+#car-img-id {
+    margin-top: 50px !important;
+    margin-bottom: 25px;
+    width: 75% !important;
+    text-align: center !important;
+}
+
+
+.logo img {
+    margin-top: 25px !important;
+    max-width: 25%;
+    text-align: center !important;
+    align-items: center !important;
+}
+
+.select{
+    margin-top: 15px;
+}
+
+.FilaInput{
+    margin-top: 15px !important;
+}
+
+
+#buscarboton {
+    background-color: #b01c19;
+    border: 2px solid black;
+    color: white;
+    padding: 12px 10px;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    font-weight: bolder;
+    width: 75% !important;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#buscarboton.active {
+    background-color: black;
+    color: white;
+}
+
+#buscarboton.focus {
+    background-color: black;
+    color: white;
+}
+
+#myAlert{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+    width: 50%;
+}

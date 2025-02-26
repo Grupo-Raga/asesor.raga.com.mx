@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Promo{
+    background-color: #af0c0c;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Nunito Sans, sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    display: block;
+}
+
+#Imagen img{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    height: 55px;
+}
+
+#car-img-id{
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+
+#Navbar{
+    background-color: white !important;
+}
+
+#TitulosNav {
+    color: black;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+#BotonBuscarLlanta{
+    display: inline-block;
+    padding: 6px 20px;
+    background-color: #a72d2c;
+    font-weight: bolder;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 25px !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#BotonFacturacionEnLinea{
+    display: inline-block;
+    padding: 6px 20px;
+    background-color: #a72d2c;
+    font-weight: bolder;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 25px !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    -moz-transition: background-color 0.3s, color 0.3s;
+    -ms-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
+}
+
+main{
+    background-color: #eee;
+}
+
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0e0e0e;
+}
+
+#TituloFooter{
+    text-align:left;
+    color:white;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+#SubTituloFooter{
+    font-size: 12px;
+    text-align: left !important;
+    color: white;
+}
+
+.social-link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    background-color: #ffffff26;
+    transition: transform 125ms cubic-bezier(.4,0,.2,1);
+}
+
+.social-link {
+    font-size: var(--font-size-body-small);
+    position: relative;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    margin: 4px;
+    color: #fff;
+    vertical-align: top;
+}
+
+.social-icons {
+    margin-top: -4px;
+    margin-right: -4px;
+    margin-left: -4px;
+    font-size: 0;
+}
+
+#separadorfooter{
+    margin-top: 100px;
+}
+
+#EmailInput{
+    width: 80% !important;
+    max-width: 80% !important;
+}
+
+
+
+
+/* Media query para pantallas medianas (laptops) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+}
+
+/* Media query para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+
+    #EmailInput{
+        margin-left: 25%;
+        text-align: center !important;
+        width: 50% !important;
+        max-width: 50% !important;
+    }
+
+    #Imagen{
+        display: none;
+        text-align: end;
+        right: 0px !important;
+        position: fixed;
+        z-index: 10;
+    }
+
+    #BotonBuscarLlanta{
+        margin-left: 0px !important;
+    }
+
+    #BotonFacturacionEnLinea{
+        margin-left: 10px !important;
+    }
+
+    .col{
+        text-align: center;
+    }
+
+    #TituloFooter{
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    #SubTituloFooter{
+        text-align: center;
+    }
+}
+
